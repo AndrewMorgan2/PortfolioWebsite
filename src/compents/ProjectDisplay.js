@@ -32,17 +32,17 @@ export default function ProjectDisplay(){
                         <b>Projects</b>
                     </h1>
                     {isDisplay &&
-                        <img src={arrow} style={{display: 'inline-flex', width: '3%', height: '3%', marginBottom: '1.5vmax', marginLeft: '1vmax'}}/>
+                        <img src={arrowFlip} style={{display: 'inline-flex', width: '3%', height: '3%', marginBottom: '1.5vmax', marginLeft: '1vmax'}}/>
                     }
                     {!isDisplay &&
-                        <img src={arrowFlip} style={{display: 'inline-flex', width: '3%', height: '3%', marginBottom: '1.5vmax', marginLeft: '1vmax'}}/>
+                        <img src={arrow} style={{display: 'inline-flex', width: '3%', height: '3%', marginBottom: '1.5vmax', marginLeft: '1vmax'}}/>
                     }   
                 </div>
 
                 {isDisplay &&
                 <div>
                     <div style={{display: 'inline-flex'}}>
-                        <img src={BilletSortingSystem} style={{width: '40%', float: 'left'}}/>
+                        <img src={BilletSortingSystem} style={{width: '40%',  height:'40%', float: 'left'}}/>
                         <div style={{height : '50%', width: '50%', marginLeft: '0.5vmin'}}>
                             <h2 style={{color : '#3041cb', fontSize : "3vmax"}}><b>Billet Sorting System</b></h2>
                             <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
@@ -52,7 +52,8 @@ export default function ProjectDisplay(){
                         </div>
                     </div>
 
-                    <div style={{display: 'inline-flex'}}>                    <img src={SolarCharger} style={{width: '40%', float: 'left'}}/>
+                    <div style={{display: 'inline-flex'}}>                    
+                    <img src={SolarCharger} style={{width: '40%',  height:'40%', float: 'left'}}/>
                         <div style={{height : '50%', width: '50%', marginLeft: '0.5vmin'}}>
                             <h2 style={{color : '#3041cb', fontSize : "3vmax"}}><b>Solar Powered Phone Charger</b></h2>
                             <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
@@ -63,7 +64,7 @@ export default function ProjectDisplay(){
                     </div>
 
                     <div style={{display: 'inline-flex'}}>
-                        <img src={Speaker} style={{width: '40%', float: 'left'}}/>
+                        <img src={Speaker} style={{width: '40%',  height:'40%', float: 'left'}}/>
                         <div style={{height : '50%', width: '50%', marginLeft: '0.5vmin'}}>
                             <h2 style={{color : '#3041cb', fontSize : "3vmax"}}><b>Sound to Light Speaker</b></h2>
                             <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
@@ -74,7 +75,7 @@ export default function ProjectDisplay(){
                     </div>
 
                     <div style={{display: 'inline-flex'}}>
-                        <img src={PinBall} style={{width: '40%', float: 'left'}}/>
+                        <img src={PinBall} style={{width: '40%',  height:'40%', float: 'left'}}/>
                         <div style={{height : '50%', width: '50%', marginLeft: '0.5vmin'}}>
                             <h2 style={{color : '#3041cb', fontSize : "3vmax"}}><b> Pinball Machine</b></h2>
                             <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
@@ -85,7 +86,7 @@ export default function ProjectDisplay(){
                     </div>
 
                     <div style={{display: 'inline-flex'}}>
-                        <img src={Flask} style={{width: '40%', float: 'left'}}/>
+                        <img src={Flask} style={{width: '40%',  height:'40%', float: 'left'}}/>
                         <div style={{height : '50%', width: '50%', marginLeft: '0.5vmin'}}>
                             <h2 style={{color : '#3041cb', fontSize : "3vmax"}}><b>Self-Heating Flask</b></h2>
                             <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
@@ -96,7 +97,7 @@ export default function ProjectDisplay(){
                     </div>
 
                     <div style={{display: 'inline-flex'}}>
-                        <img src={BinaryClock} style={{width: '40%', float: 'left'}}/>
+                        <img src={BinaryClock} style={{width: '40%',  height:'40%', float: 'left'}}/>
                         <div style={{height : '50%', width: '50%', marginLeft: '0.5vmin'}}>
                             <h2 style={{color : '#3041cb', fontSize : "3vmax"}}><b>Binary Clock</b></h2>
                             <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
@@ -107,7 +108,7 @@ export default function ProjectDisplay(){
                     </div>
 
                     <div style={{display: 'inline-flex'}}>
-                        <img src={Airgun} style={{width: '40%', float: 'left'}}/>
+                        <img src={Airgun} style={{width: '40%',  height:'40%', float: 'left'}}/>
                         <div style={{height : '50%', width: '50%', marginLeft: '0.5vmin'}}>
                             <h2 style={{color : '#3041cb', fontSize : "3vmax"}}><b>Airgun</b></h2>
                             <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
@@ -118,7 +119,7 @@ export default function ProjectDisplay(){
                     </div>
 
                     <div style={{display: 'inline-flex'}}>
-                        <img src={Website} style={{width: '40%', float: 'left'}}/>
+                        <img src={Website} style={{width: '40%',  height:'40%', float: 'left'}}/>
                         <div style={{height : '50%', width: '50%', marginLeft: '0.5vmin'}}>
                             <h2 style={{color : '#3041cb', fontSize : "3vmax"}}><b> My First Version of this Website</b></h2>
                             <h3 style={{color : 'white', fontSize : "1.5vmax"}}>

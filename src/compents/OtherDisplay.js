@@ -26,17 +26,17 @@ export default function OtherDisplay () {
                         <b>Other</b>
                     </h1>
                     {isDisplay &&
-                        <img src={arrow} style={{display: 'inline-flex', width: '3%', height: '3%', marginBottom: '1.5vmax', marginLeft: '1vmax'}}/>
+                        <img src={arrowFlip} style={{display: 'inline-flex', width: '3%', height: '3%', marginBottom: '1.5vmax', marginLeft: '1vmax'}}/>
                     }
                     {!isDisplay &&
-                        <img src={arrowFlip} style={{display: 'inline-flex', width: '3%', height: '3%', marginBottom: '1.5vmax', marginLeft: '1vmax'}}/>
+                        <img src={arrow} style={{display: 'inline-flex', width: '3%', height: '3%', marginBottom: '1.5vmax', marginLeft: '1vmax'}}/>
                     }   
                 </div>
                 
                 {isDisplay &&
                 <div>
                     <div style={{display: 'inline-flex'}}>
-                        <img src={HeadBoy} style={{width: '40%', float: 'left'}}/>
+                        <img src={HeadBoy} style={{width: '40%',  height:'40%', float: 'left'}}/>
                         <div style={{height : '50%', width: '50%', marginLeft: '0.5vmin'}}>
                             <h2 style={{color : '#3041cb', fontSize : "3vmax"}}><b>Head Boy</b></h2>
                             <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
@@ -46,7 +46,7 @@ export default function OtherDisplay () {
                     </div>
 
                     <div style={{display: 'inline-flex'}}>
-                        <img src={Dyson} style={{width: '40%', float: 'left'}}/>
+                        <img src={Dyson} style={{width: '40%',  height:'40%', float: 'left'}}/>
                         <div style={{height : '50%', width: '50%', marginLeft: '0.5vmin'}}>
                             <h2 style={{color : '#3041cb', fontSize : "3vmax"}}><b>Dyson Mentoring</b></h2>
                             <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
@@ -56,7 +56,7 @@ export default function OtherDisplay () {
                     </div>
 
                     <div style={{display: 'inline-flex'}}>
-                        <img src={Cards} style={{width: '40%', float: 'left'}}/>
+                        <img src={Cards} style={{width: '40%',  height:'40%', float: 'left'}}/>
                         <div style={{height : '50%', width: '50%', marginLeft: '0.5vmin'}}>
                             <h2 style={{color : '#3041cb', fontSize : "3vmax"}}><b>Cards For Good Causes</b></h2>
                             <h3 style={{color : 'white', fontSize : "1.5vmax"}}>

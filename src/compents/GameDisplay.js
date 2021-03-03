@@ -33,17 +33,17 @@ export default function GameDisplay() {
                         <b>Games</b>
                     </h1>
                     {isDisplay &&
-                        <img src={arrow} style={{display: 'inline-flex', width: '3%', height: '3%', marginBottom: '1.5vmax', marginLeft: '1vmax'}}/>
+                        <img src={arrowFlip} style={{display: 'inline-flex', width: '3%', height: '3%', marginBottom: '1.5vmax', marginLeft: '1vmax'}}/>
                     }
                     {!isDisplay &&
-                        <img src={arrowFlip} style={{display: 'inline-flex', width: '3%', height: '3%', marginBottom: '1.5vmax', marginLeft: '1vmax'}}/>
+                        <img src={arrow} style={{display: 'inline-flex', width: '3%', height: '3%', marginBottom: '1.5vmax', marginLeft: '1vmax'}}/>
                     }   
                 </div>
 
                 {isDisplay &&
                 <div>
                     <div style={{display: 'inline-flex'}}>
-                        <img src={DinoFight} style={{width: '40%', float: 'left'}}/>
+                        <img src={DinoFight} style={{width: '40%',  height:'40%', float: 'left'}}/>
                         <div style={{height : '50%', width: '50%', marginLeft: '0.5vmin'}}>
                             <h2 style={{color : '#3041cb', fontSize : "3vmax"}}><b>Dino Fight</b></h2>
                             <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
@@ -54,7 +54,7 @@ export default function GameDisplay() {
                     </div>
 
                     <div style={{display: 'inline-flex'}}>
-                        <img src={ArcadeFootball} style={{width: '40%', float: 'left'}}/>
+                        <img src={ArcadeFootball} style={{width: '40%',  height:'40%', float: 'left'}}/>
                         <div style={{height : '50%', width: '50%', marginLeft: '0.5vmin'}}>
                             <h2 style={{color : '#3041cb', fontSize : "3vmax"}}><b>Arcade Football</b></h2>
                             <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
@@ -65,7 +65,7 @@ export default function GameDisplay() {
                     </div>
 
                     <div style={{display: 'inline-flex'}}>
-                        <img src={TurnBased} style={{width: '40%', float: 'left'}}/>
+                        <img src={TurnBased} style={{width: '40%',  height:'40%', float: 'left'}}/>
                         <div style={{height : '50%', width: '50%', marginLeft: '0.5vmin'}}>
                             <h2 style={{color : '#3041cb', fontSize : "3vmax"}}><b>Turn-Based Strategy</b></h2>
                             <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
@@ -76,7 +76,7 @@ export default function GameDisplay() {
                     </div>
 
                     <div style={{display: 'inline-flex'}}>
-                        <img src={SpaceHex} style={{width: '40%', float: 'left'}}/>
+                        <img src={SpaceHex} style={{width: '40%',  height:'40%', float: 'left'}}/>
                         <div style={{height : '50%', width: '50%', marginLeft: '0.5vmin'}}>
                             <h2 style={{color : '#3041cb', fontSize : "3vmax"}}><b>Space Hex</b></h2>
                             <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
@@ -87,7 +87,7 @@ export default function GameDisplay() {
                     </div>
                     
                     <div style={{display: 'inline-flex'}}>
-                        <img src={BoyInWoods} style={{width: '40%', float: 'left'}}/>
+                        <img src={BoyInWoods} style={{width: '40%',  height:'40%', float: 'left'}}/>
                         <div style={{height : '50%', width: '50%', marginLeft: '0.5vmin'}}>
                             <h2 style={{color : '#3041cb', fontSize : "3vmax"}}><b>Boy in the Woods</b></h2>
                             <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
@@ -98,7 +98,7 @@ export default function GameDisplay() {
                     </div>
 
                     <div style={{display: 'inline-flex'}}>
-                        <img src={LockDown} style={{width: '40%', float: 'left'}}/>
+                        <img src={LockDown} style={{width: '40%',  height:'40%', float: 'left'}}/>
                         <div style={{height : '50%', width: '50%', marginLeft: '0.5vmin'}}>
                             <h2 style={{color : '#3041cb', fontSize : "3vmax"}}><b>Lock Down Simulator</b></h2>
                             <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
@@ -109,7 +109,7 @@ export default function GameDisplay() {
                     </div>
 
                     <div style={{display: 'inline-flex'}}>
-                        <img src={RTS} style={{width: '40%', float: 'left'}}/>
+                        <img src={RTS} style={{width: '40%',  height:'40%', float: 'left'}}/>
                         <div style={{height : '50%', width: '50%', marginLeft: '0.5vmin'}}>
                             <h2 style={{color : '#3041cb', fontSize : "3vmax"}}><b>Real Time Strategy</b></h2>
                             <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
@@ -120,7 +120,7 @@ export default function GameDisplay() {
                     </div>
 
                     <div style={{display: 'inline-flex'}}>
-                        <img src={ZombieGame} style={{width: '40%', float: 'left'}}/>
+                        <img src={ZombieGame} style={{width: '40%',  height:'40%', float: 'left'}}/>
                         <div style={{height : '50%', width: '50%', marginLeft: '0.5vmin'}}>
                             <h2 style={{color : '#3041cb', fontSize : "3vmax"}}><b>Zombie Game</b></h2>
                             <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
