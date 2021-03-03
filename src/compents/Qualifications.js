@@ -31,9 +31,15 @@ export default class OtherDisplay extends React.Component {
                         Computer Architecture, Security 101, Imperative Programming,
                         Functional Programming, Probability and Statistics, Mathematical Methods,
                         Databases and Cloud Concepts, Theory of Computation, Object-Oriented
-                        Programming, Algorithms - averaging 67.2%.
+                        Programming, Algorithms - <b>averaging 67.2%</b>
                     </h3> 
-                    <br></br>        
+                    <br/>
+                    <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
+                    <b style={{fontSize : "2vmax"}}>Second Year Topics: </b>
+                        Computer Systems A, Computer Systems B, Algorithms II, Software Engineering Project,
+                        Programming Languages and Computation, Data-Driven Computer Science,
+                        Interaction and Society - <b>averaging TBD</b>
+                    </h3>    
                 </div>
             </div>
         );
