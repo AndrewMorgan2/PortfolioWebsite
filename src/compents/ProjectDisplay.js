@@ -14,7 +14,7 @@ import arrowFlip from '../img/arrowFlip.png';
 export default function ProjectDisplay(){
 
     //only project visable straight away
-    const [isDisplay, setIsDisplay] = useState(true);
+    const [isDisplay, setIsDisplay] = useState(false);
 
     function handleClick(e) {
         e.preventDefault();
@@ -32,11 +32,11 @@ export default function ProjectDisplay(){
                         <b>Projects</b>
                     </h1>
                     {isDisplay &&
-                        <img src={arrowFlip} style={{display: 'inline-flex', width: '3%', height: '3%', marginBottom: '1.5vmax', marginLeft: '1vmax'}}/>
+                        <img src={arrow} style={{display: 'inline-flex', width: '3%', height: '3%', marginBottom: '1.5vmax', marginLeft: '1vmax'}}/>
                     }
                     {!isDisplay &&
-                        <img src={arrow} style={{display: 'inline-flex', width: '3%', height: '3%', marginBottom: '1.5vmax', marginLeft: '1vmax'}}/>
-                    }   
+                        <img src={arrowFlip} style={{display: 'inline-flex', width: '3%', height: '3%', marginBottom: '1.5vmax', marginLeft: '1vmax'}}/>
+                    }
                 </div>
 
                 {isDisplay &&

@@ -9,7 +9,7 @@ import AboutMe from './compents/AboutMe';
 function App() {
   return (
     <div style={{backgroundColor : 'black'}}>
-      <img src={icon} style={{float: 'right', height: '30vmin'}}/>
+      <img src={icon} style={{float: 'right', height: '30vmin', margin: '0.5vmin'}}/>
       <div  style={{marginLeft : "1vw", marginRight : "1vw"}}>
         <h1 style={{color: "#3041cb", display: "inline-flex", fontSize: "5vmax"}}>My Portfolio</h1>
         <div>
