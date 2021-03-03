@@ -33,13 +33,13 @@ export default class OtherDisplay extends React.Component {
                         Databases and Cloud Concepts, Theory of Computation, Object-Oriented
                         Programming, Algorithms - <b>averaging 67.2%</b>
                     </h3> 
-                    <br/>
                     <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
                     <b style={{fontSize : "2vmax"}}>Second Year Topics: </b>
                         Computer Systems A, Computer Systems B, Algorithms II, Software Engineering Project,
                         Programming Languages and Computation, Data-Driven Computer Science,
                         Interaction and Society - <b>averaging TBD</b>
-                    </h3>    
+                    </h3>
+                    <br/>
                 </div>
             </div>
         );
