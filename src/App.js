@@ -6,6 +6,9 @@ import './App.css';
 import icon from './img/Icon.png';
 import AboutMe from './compents/AboutMe';
 
+//Chess board
+import Chess from './compents/Chess'
+
 function App() {
   return (
     <div style={{backgroundColor : 'black'}}>
@@ -16,6 +19,7 @@ function App() {
           <AboutMe/>
           <GameDisplay/>
           <ProjectDisplay/>
+          <Chess/>
           <OtherDisplay/>
           <Qualifications/>
         </div>

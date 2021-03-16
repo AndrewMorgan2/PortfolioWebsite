@@ -20,10 +20,10 @@ export default function OtherDisplay () {
         }
     }
         return(
-            <div>
+            <div style ={{display : 'block'}}>
                 <div onClick={handleClick}>
                     <h1 style={{color : '#3041cb', fontSize : "4vmax", display: 'inline-flex'}}>
-                        <b>Other</b>
+                        <b>Other [3]</b>
                     </h1>
                     {isDisplay &&
                         <img src={arrow} style={{display: 'inline-flex', width: '3%', height: '3%', marginBottom: '1.5vmax', marginLeft: '1vmax'}}/>

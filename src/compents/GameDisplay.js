@@ -30,7 +30,7 @@ export default function GameDisplay() {
             <div>
                 <div onClick={handleClick}>
                     <h1 style={{color : '#3041cb', fontSize : "4vmax", display: 'inline-flex'}}>
-                        <b>Games</b>
+                        <b>Games [9]</b>
                     </h1>
                     {isDisplay &&
                         <img src={arrow} style={{display: 'inline-flex', width: '3%', height: '3%', marginBottom: '1.5vmax', marginLeft: '1vmax'}}/>
