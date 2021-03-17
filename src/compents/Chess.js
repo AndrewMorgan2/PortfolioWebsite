@@ -21,7 +21,7 @@ function ChessAI () {
     return (
     <div style ={{display : 'block'}}>
         <div onClick={handleClick}>
-                    <h1 style={{color : '#3041cb', fontSize : "4vmax", display: 'inline-flex'}}>
+                    <h1 style={{color : '#4483b6', fontSize : "4vmax", display: 'inline-flex'}}>
                         <b>Interactive [1]</b>
                     </h1>
                     {isDisplay &&
@@ -35,8 +35,8 @@ function ChessAI () {
         {isDisplay &&
         <div>
             <div style = {{display: 'block'}}>
-                <div style={{height : '50%', width: '50%'}}>
-                    <h2 style={{color : '#3041cb', fontSize : "3vmax"}}><b>Chess AI</b></h2>
+                <div style={{height : '50%', width: '100%'}}>
+                    <h2 style={{color : '#4483b6', fontSize : "3vmax"}}><b>Chess AI</b></h2>
                     <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
                     This is a chess AI that I developed during the corona virus lockdown. Feel free to have a go. I'm currently rated about 
                     1500 on chess.com (making me a pretty average chess player), and I never beat this AI. I will be alerted if someone wins!
@@ -49,7 +49,7 @@ function ChessAI () {
                     <Chessboard
                     id="stockfish"
                     position={position}
-                    width={320}
+                    width={400}
                     onDrop={onDrop}
                     boardStyle={boardStyle}
                     orientation="black"

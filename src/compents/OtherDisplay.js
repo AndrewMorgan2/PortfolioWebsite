@@ -22,7 +22,7 @@ export default function OtherDisplay () {
         return(
             <div style ={{display : 'block'}}>
                 <div onClick={handleClick}>
-                    <h1 style={{color : '#3041cb', fontSize : "4vmax", display: 'inline-flex'}}>
+                    <h1 style={{color : '#4483b6', fontSize : "4vmax", display: 'inline-flex'}}>
                         <b>Other [3]</b>
                     </h1>
                     {isDisplay &&
@@ -38,7 +38,7 @@ export default function OtherDisplay () {
                     <div style={{display: 'inline-flex'}}>
                         <img src={HeadBoy} style={{width: '40%',  height:'40%', float: 'left'}}/>
                         <div style={{height : '50%', width: '50%', marginLeft: '0.5vmin'}}>
-                            <h2 style={{color : '#3041cb', fontSize : "3vmax"}}><b>Head Boy</b></h2>
+                            <h2 style={{color : '#4483b6', fontSize : "3vmax"}}><b>Head Boy</b></h2>
                             <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
                             This was a great experience to have, organising events and public speaking are amoung the skills it helped me to develop 
                             </h3>
@@ -48,7 +48,7 @@ export default function OtherDisplay () {
                     <div style={{display: 'inline-flex'}}>
                         <img src={Dyson} style={{width: '40%',  height:'40%', float: 'left'}}/>
                         <div style={{height : '50%', width: '50%', marginLeft: '0.5vmin'}}>
-                            <h2 style={{color : '#3041cb', fontSize : "3vmax"}}><b>Dyson Mentoring</b></h2>
+                            <h2 style={{color : '#4483b6', fontSize : "3vmax"}}><b>Dyson Mentoring</b></h2>
                             <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
                             I was part of an industry mentoring scheme with Dyson. This involved doing research into a given topic and giving a presentation based on the findings. I won best presentation on one occasion
                             </h3>
@@ -58,7 +58,7 @@ export default function OtherDisplay () {
                     <div style={{display: 'inline-flex'}}>
                         <img src={Cards} style={{width: '40%',  height:'40%', float: 'left'}}/>
                         <div style={{height : '50%', width: '50%', marginLeft: '0.5vmin'}}>
-                            <h2 style={{color : '#3041cb', fontSize : "3vmax"}}><b>Cards For Good Causes</b></h2>
+                            <h2 style={{color : '#4483b6', fontSize : "3vmax"}}><b>Cards For Good Causes</b></h2>
                             <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
                             Over Christmas I volunteer at a card shop that uses donates profit to charity
                             </h3>

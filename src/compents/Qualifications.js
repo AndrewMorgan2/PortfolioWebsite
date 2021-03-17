@@ -5,7 +5,7 @@ export default class OtherDisplay extends React.Component {
         return(
             <div>
                 <div>
-                    <h2 style={{color : '#3041cb', fontSize : "3vmax"}}>
+                    <h2 style={{color : '#4483b6', fontSize : "3vmax"}}>
                         <b>Formal Education</b>
                     </h2>
                     <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
@@ -14,7 +14,7 @@ export default class OtherDisplay extends React.Component {
                 </div>
 
                 <div>
-                    <h2 style={{color : '#3041cb', fontSize : "3vmax"}}>
+                    <h2 style={{color : '#4483b6', fontSize : "3vmax"}}>
                         <b>Awards</b>
                     </h2>
                     <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
@@ -23,7 +23,7 @@ export default class OtherDisplay extends React.Component {
                 </div>
 
                 <div>
-                    <h2 style={{color : '#3041cb', fontSize : "3vmax"}}>
+                    <h2 style={{color : '#4483b6', fontSize : "3vmax"}}>
                         <b>University Grades</b>
                     </h2>
                     <h3 style={{color : 'white', fontSize : "1.5vmax"}}>

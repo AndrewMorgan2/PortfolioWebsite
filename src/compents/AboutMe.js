@@ -5,7 +5,7 @@ export default class AboutMe extends React.Component {
     render(){
         return (
             <div>
-                <h1 style={{fontSize : "3vmax", color: "#3041cb"}}>
+                <h1 style={{fontSize : "3vmax", color: "#4483b6"}}>
                     <b>About Me</b>
                 </h1>
                 <h3 style={{fontSize : "1.5vmax", color: "white"}}>
