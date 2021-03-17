@@ -12,8 +12,8 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
-
+registerServiceWorker();
 //Functions to be run
 // or send to an analytics endpoint: https://bit.ly/CRA-vitals
 reportWebVitals();
-registerServiceWorker();
+
