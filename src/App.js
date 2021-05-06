@@ -19,7 +19,6 @@ function App() {
           <AboutMe/>
           <GameDisplay/>
           <ProjectDisplay/>
-          <Chess/>
           <OtherDisplay/>
           <Qualifications/>
         </div>
