@@ -6,6 +6,7 @@ import Flask from '../img/porf-12.PNG';
 import BinaryClock from '../img/porf-13.jpg';
 import Airgun from '../img/porf-14.png';
 import Website from '../img/porf-16.png';
+import DeviceEnergy from '../img/porf-17.jpg';
 
 import React, {useState} from 'react'; 
 import arrow from '../img/arrow.png';
@@ -29,7 +30,7 @@ export default function ProjectDisplay(){
             <div>
                 <div onClick={handleClick}>
                     <h1 style={{color : '#4483b6', fontSize : "4vmax", display: 'inline-flex'}}>
-                        <b>Projects [8]</b>
+                        <b>Projects [9]</b>
                     </h1>
                     {isDisplay &&
                         <img src={arrow} style={{display: 'inline-flex', width: '3%', height: '3%', marginBottom: '1.5vmax', marginLeft: '1vmax'}}/>
@@ -41,6 +42,18 @@ export default function ProjectDisplay(){
 
                 {isDisplay &&
                 <div>
+                    <div style={{display: 'inline-flex'}}>
+                        <img src={DeviceEnergy} style={{width: '40%',  height:'40%', float: 'left'}}/>
+                        <div style={{height : '50%', width: '50%', marginLeft: '0.5vmin'}}>
+                            <h2 style={{color : '#4483b6', fontSize : "3vmax"}}><b>Device Energy Modelling</b></h2>
+                            <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
+                            This was a university group project, where we collected energy consumption from a variety of devices and displayed
+                            it in graph form. There is an admin page to edit the data shown. In this project I wrote the database along with parts
+                            of the front-end and API.
+                            </h3>
+                        </div>
+                    </div>
+
                     <div style={{display: 'inline-flex'}}>
                         <img src={BilletSortingSystem} style={{width: '40%',  height:'40%', float: 'left'}}/>
                         <div style={{height : '50%', width: '50%', marginLeft: '0.5vmin'}}>
