@@ -37,7 +37,7 @@ export default class OtherDisplay extends React.Component {
                     <b style={{fontSize : "2vmax"}}>Second Year Topics: </b>
                         Computer Systems A, Computer Systems B, Algorithms II, Software Engineering Project,
                         Programming Languages and Computation, Data-Driven Computer Science,
-                        Interaction and Society - <b>averaging TBD</b>
+                        Interaction and Society - <b>averaging 67.75%</b>
                     </h3>
                     <br/>
                 </div>
