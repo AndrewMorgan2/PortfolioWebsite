@@ -2,6 +2,7 @@ import ProjectDisplay from "./compents/ProjectDisplay";
 import OtherDisplay from "./compents/OtherDisplay";
 import GameDisplay from "./compents/GameDisplay";
 import Qualifications from "./compents/Qualifications";
+import ShowCase from "./compents/ShowCase.js";
 import './App.css';
 import icon from './img/Icon.png';
 import AboutMe from './compents/AboutMe';
@@ -17,6 +18,7 @@ function App() {
         <h1 style={{color: "#4483b6", display: "inline-flex", fontSize: "5vmax"}}>My Portfolio</h1>
         <div>
           <AboutMe/>
+          <ShowCase/>
           <GameDisplay/>
           <ProjectDisplay/>
           <OtherDisplay/>
