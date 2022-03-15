@@ -18,7 +18,7 @@ export default class OtherDisplay extends React.Component {
                         <b>Awards</b>
                     </h2>
                     <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
-                    Duke of Edinburgh Sliver / Engineering Scholarship Scheme Wales Award / Life Guard Qualifications
+                    Duke of Edinburgh Sliver / Engineering Scholarship Scheme Wales Award / Life Guard Qualifications / Head Boy
                     </h3>
                 </div>
 

@@ -5,15 +5,13 @@ export default class AboutMe extends React.Component {
     render(){
         return (
             <div>
-                <h1 style={{fontSize : "3vmax", color: "#4483b6"}}>
-                    <b>About Me</b>
-                </h1>
+                <br/>
+                <br/>
                 <h3 style={{fontSize : "1.5vmax", color: "white"}}>
                     I have made this website to display my projects.
-                    I can write in Java, C#, C++, C, HTML, CSS, Haskell, SQL, go and basic. 
-                    I learn best when I can use the information to build something useful as the information has a practical application.
-                    That is the main reason I build these projects, some of the projects are proof of concept or even just to 
-                    make some computer thoery abit more concrete.
+                    I'm a full stack developer, I've built my own processor simulator running my own RISC instruction set.
+                    I've written projects using basic, Haskell, Prolog, C, C++, C#, go, Java, SQL, HTML and CSS.
+                    These are some of my projects.
                 </h3>
             </div>
         );

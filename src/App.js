@@ -13,15 +13,13 @@ import Chess from './compents/Chess'
 function App() {
   return (
     <div>
-      <img src={icon} style={{float: 'right', height: '30vmin', margin: '0.5vmin'}}/>
       <div  style={{marginLeft : "1vw", marginRight : "1vw"}}>
-        <h1 style={{color: "#4483b6", display: "inline-flex", fontSize: "5vmax"}}>My Portfolio</h1>
+        <h1 style={{color: "#4483b6", display: "inline-flex", fontSize: "5vmax"}}>Andrew Morgan's Portfolio</h1>
         <div>
           <AboutMe/>
           <ShowCase/>
           <GameDisplay/>
           <ProjectDisplay/>
-          <OtherDisplay/>
           <Qualifications/>
         </div>
       </div>

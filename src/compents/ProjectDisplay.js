@@ -30,7 +30,7 @@ export default function ProjectDisplay(){
             <div>
                 <div onClick={handleClick}>
                     <h1 style={{color : '#4483b6', fontSize : "4vmax", display: 'inline-flex'}}>
-                        <b>Projects [9]</b>
+                        <b>Projects [7]</b>
                     </h1>
                     {isDisplay &&
                         <img src={arrow} style={{display: 'inline-flex', width: '3%', height: '3%', marginBottom: '1.5vmax', marginLeft: '1vmax'}}/>
@@ -116,28 +116,6 @@ export default function ProjectDisplay(){
                             <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
                             The basic concept here is that the top row of LEDs displays the hour and the bottom row displays the minutes. The casing for this project was made out of scrapes that I found around the house,
                             the log (where the LEDs are housed) was from a tree that feel near my house.
-                            </h3>
-                        </div>
-                    </div>
-
-                    <div style={{display: 'inline-flex'}}>
-                        <img src={Airgun} style={{width: '40%',  height:'40%', float: 'left'}}/>
-                        <div style={{height : '50%', width: '50%', marginLeft: '0.5vmin'}}>
-                            <h2 style={{color : '#4483b6', fontSize : "3vmax"}}><b>Airgun</b></h2>
-                            <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
-                            This was a fun project, it’s every simple in design. Take some large plastic bottles form airtight seals between them and pump air into them to cause high pressure within the 2-liter bottles.
-                            Then use a trigger of some sort to form to release this air and carry BB pellets.
-                            </h3>
-                        </div>
-                    </div>
-
-                    <div style={{display: 'inline-flex'}}>
-                        <img src={Website} style={{width: '40%',  height:'40%', float: 'left'}}/>
-                        <div style={{height : '50%', width: '50%', marginLeft: '0.5vmin'}}>
-                            <h2 style={{color : '#4483b6', fontSize : "3vmax"}}><b> My First Version of this Website</b></h2>
-                            <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
-                            I was just getting to grips with the core concepts of HTML and CSS. Hopefully you will see how the site has improved over time,
-                            as I have become more familar with web design.
                             </h3>
                         </div>
                     </div>

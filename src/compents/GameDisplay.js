@@ -30,7 +30,7 @@ export default function GameDisplay() {
             <div>
                 <div onClick={handleClick}>
                     <h1 style={{color : '#4483b6', fontSize : "4vmax", display: 'inline-flex'}}>
-                        <b>Games [9]</b>
+                        <b>Games [5]</b>
                     </h1>
                     {isDisplay &&
                         <img src={arrow} style={{display: 'inline-flex', width: '3%', height: '3%', marginBottom: '1.5vmax', marginLeft: '1vmax'}}/>
@@ -65,17 +65,6 @@ export default function GameDisplay() {
                     </div>
 
                     <div style={{display: 'inline-flex'}}>
-                        <img src={TurnBased} style={{width: '40%',  height:'40%', float: 'left'}}/>
-                        <div style={{height : '50%', width: '50%', marginLeft: '0.5vmin'}}>
-                            <h2 style={{color : '#4483b6', fontSize : "3vmax"}}><b>Turn-Based Strategy</b></h2>
-                            <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
-                            This was a single player game. Moving units thought terrain to fight enemies, this is a great example of 
-                            object oriented code. The unit required methods along with variables such as attack and health.
-                            </h3>
-                        </div>
-                    </div>
-
-                    <div style={{display: 'inline-flex'}}>
                         <img src={SpaceHex} style={{width: '40%',  height:'40%', float: 'left'}}/>
                         <div style={{height : '50%', width: '50%', marginLeft: '0.5vmin'}}>
                             <h2 style={{color : '#4483b6', fontSize : "3vmax"}}><b>Space Hex</b></h2>
@@ -96,29 +85,6 @@ export default function GameDisplay() {
                             </h3>
                         </div>
                     </div>
-
-                    <div style={{display: 'inline-flex'}}>
-                        <img src={LockDown} style={{width: '40%',  height:'40%', float: 'left'}}/>
-                        <div style={{height : '50%', width: '50%', marginLeft: '0.5vmin'}}>
-                            <h2 style={{color : '#4483b6', fontSize : "3vmax"}}><b>Lock Down Simulator</b></h2>
-                            <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
-                            During the corona lockdown I 3D modelled a house and began simulating hunger and work. 
-                            The pathfinding was easy because the map was static and the behaviors were basically move here and do this. Fun to program, not fun to watch
-                            </h3>
-                        </div>
-                    </div>
-
-                    <div style={{display: 'inline-flex'}}>
-                        <img src={RTS} style={{width: '40%',  height:'40%', float: 'left'}}/>
-                        <div style={{height : '50%', width: '50%', marginLeft: '0.5vmin'}}>
-                            <h2 style={{color : '#4483b6', fontSize : "3vmax"}}><b>Real Time Strategy</b></h2>
-                            <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
-                            This is a real time strategy game, that only has resource collection. 
-                            The original scope was much larger, but after struggling to generate simple collection routines for villages I decided to reduce the scope. 
-                            </h3>
-                        </div>
-                    </div>
-
                     <div style={{display: 'inline-flex'}}>
                         <img src={ZombieGame} style={{width: '40%',  height:'40%', float: 'left'}}/>
                         <div style={{height : '50%', width: '50%', marginLeft: '0.5vmin'}}>
