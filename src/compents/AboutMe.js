@@ -6,7 +6,6 @@ export default class AboutMe extends React.Component {
         return (
             <div>
                 <br/>
-                <br/>
                 <h3 style={{fontSize : "1.5vmax", color: "white"}}>
                     I have made this website to display my projects.
                     I'm a full stack developer, I've built my own processor simulator running my own RISC instruction set.
