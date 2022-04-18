@@ -1,6 +1,6 @@
 
 import robotDog from '../img/robotDog.jpg';
-import Hexile from '../img/Hexile.jpg';
+import Breached from '../img/Breached.png';
 import ProcessorSimulator from '../img/MyProcessor.png';
 
 import React, {useState} from 'react'; 
@@ -55,11 +55,12 @@ export default function ShowCase() {
                         </div>
                     </div>
                     <div style={{display: 'inline-flex'}}>
-                        <img src={Hexile} style={{width: '40%',  height:'40%', float: 'left'}}/>
+                        <img src={Breached} style={{width: '40%',  height:'40%', float: 'left'}}/>
                         <div style={{height : '50%', width: '50%', marginLeft: '0.5vmin'}}>
-                            <h2 style={{color : '#4483b6', fontSize : "3vmax"}}><b>Hexile</b></h2>
+                            <h2 style={{color : '#4483b6', fontSize : "3vmax"}}><b>Breached</b></h2>
                             <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
-                            Hex based strategy game that used LAN to connect players together. Required alot of interations to make the game balanced.
+                            First person, web browser co-op escape room style game, complete with water simulation. I did this as a team of 6 in my 3rd year of university
+                            Source code: <a href="https://github.com/breached-game/BreachedGame">here's a link to the github page</a>
                             </h3>
                         </div>
                     </div>

@@ -11,6 +11,7 @@ import BoyInWoods from '../img/porf-8.PNG';
 import LockDown from '../img/porf-10.PNG';
 import RTS from '../img/porf-11.PNG';
 import ZombieGame from '../img/porf-15.PNG';
+import Hexile from '../img/Hexile.jpg';
 
 
 
@@ -30,7 +31,7 @@ export default function GameDisplay() {
             <div>
                 <div onClick={handleClick}>
                     <h1 style={{color : '#4483b6', fontSize : "4vmax", display: 'inline-flex'}}>
-                        <b>Games [5]</b>
+                        <b>Games [6]</b>
                     </h1>
                     {isDisplay &&
                         <img src={arrow} style={{display: 'inline-flex', width: '3%', height: '3%', marginBottom: '1.5vmax', marginLeft: '1vmax'}}/>
@@ -60,6 +61,16 @@ export default function GameDisplay() {
                             <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
                             Another local multipler game that required a lot more phyiscs to handle. Working out where the ball should 
                             bounce, how that bounce changes depending on surfaces was a lot of fun
+                            </h3>
+                        </div>
+                    </div>
+
+                    <div style={{display: 'inline-flex'}}>
+                        <img src={Hexile} style={{width: '40%',  height:'40%', float: 'left'}}/>
+                        <div style={{height : '50%', width: '50%', marginLeft: '0.5vmin'}}>
+                            <h2 style={{color : '#4483b6', fontSize : "3vmax"}}><b>Hexile</b></h2>
+                            <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
+                            Hex based strategy game that used LAN to connect players together. Required alot of interations to make the game balanced.
                             </h3>
                         </div>
                     </div>
