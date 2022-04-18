@@ -40,7 +40,7 @@ export default function ShowCase() {
                         <div style={{height : '50%', width: '50%', marginLeft: '0.5vmin'}}>
                             <h2 style={{color : '#4483b6', fontSize : "3vmax"}}><b>Processor Simulator</b></h2>
                             <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
-                            I built a processor, if this interests you Link
+                            I built a processor, if this interests you <a href="https://github.com/AndrewMorgan2/MyProcessor">here's a link to the github page</a>
                             </h3>
                         </div>
                     </div>
