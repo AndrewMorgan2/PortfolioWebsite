@@ -16,14 +16,14 @@ function App() {
       <div  style={{marginLeft : "1vw", marginRight : "1vw"}}>
         <h1 style={{color: "#4483b6", display: "inline-flex", fontSize: "5vmax"}}>Andrew Morgan's Portfolio</h1>
         <div>
-          <AboutMe/>
-          <ShowCase/>
-          <GameDisplay/>
-          <ProjectDisplay/>
-          <Qualifications/>
+          <AboutMe />
+          <ShowCase />
+          <GameDisplay />
+          <ProjectDisplay />
+          <Qualifications />
         </div>
       </div>
-    </div>
+      </div>
   );
 }
 
