@@ -5,9 +5,6 @@ export default class AboutMe extends React.Component {
     render(){
         return (
             <div>
-                <h2>
-                <a href="https://github.com/AndrewMorgan2/">Link to my github</a>
-                </h2>
                 <h3 style={{fontSize : "1.5vmax", color: "white"}}>
                     I have made this website to display my projects.
                     I'm a full stack developer, I've built my own processor simulator running my own RISC instruction set.
