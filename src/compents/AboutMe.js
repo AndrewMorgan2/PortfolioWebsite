@@ -5,7 +5,7 @@ export default class AboutMe extends React.Component {
     render() {
         return (
             <div>
-                <h3 style={{ fontSize: "1.5vmax", color: "white" }}>
+                <h3 style={{ fontSize: "1.5vmax", color: "white", marginLeft: "10vw"}}>
                     I have made this website to display my projects.
                     I'm a full stack developer and I've written projects using:
                     <div style={{ display: 'block'}}>

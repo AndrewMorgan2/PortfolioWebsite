@@ -16,18 +16,20 @@ function App() {
   return (
     <div>
       <div style={{ marginLeft: "1vw", marginRight: "1vw" }}>
-        <h1 style={{ color: "#4483b6", display: "inline-flex", fontSize: "4vmax" }}>Andrew Morgan's Portfolio
-        <h2>
-          <a href="https://github.com/AndrewMorgan2/">
-            <img src={GithubIcon}  style={{alignSelf: 'center', marginLeft: "5vw", width: "6vw", height: "6vw" }}/>
-          </a>
-        </h2>
-        <h2>
-          <a href="https://www.linkedin.com/in/andrew-morgan-9672261bb//">
-            <img src={LinkedIcon}  style={{alignSelf: 'center', marginLeft: "5vw", width: "6vw", height: "6vw" }}/>
-          </a>
-        </h2>
-        </h1>
+        <div style={{ marginLeft: "10vw",}}>
+          <h1 style={{ color: "#4483b6", display: "inline-flex", fontSize: "4vmax" }}>Andrew Morgan's Portfolio
+            <h2>
+              <a href="https://github.com/AndrewMorgan2/">
+                <img src={GithubIcon} style={{ alignSelf: 'center', marginLeft: "5vw", width: "6vw", height: "6vw" }} />
+              </a>
+            </h2>
+            <h2>
+              <a href="https://www.linkedin.com/in/andrew-morgan-9672261bb//">
+                <img src={LinkedIcon} style={{ alignSelf: 'center', marginLeft: "5vw", width: "6vw", height: "6vw" }} />
+              </a>
+            </h2>
+          </h1>
+        </div>
         <div>
           <AboutMe />
           <ShowCase />
@@ -36,7 +38,7 @@ function App() {
           <Qualifications />
         </div>
       </div>
-      </div>
+    </div>
   );
 }
 
