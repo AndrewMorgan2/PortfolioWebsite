@@ -16,7 +16,7 @@ function App() {
   return (
     <div>
       <div style={{ marginLeft: "1vw", marginRight: "1vw" }}>
-        <div style={{ marginLeft: "10vw",}}>
+        <div style={{textAlign: "center"}}>
           <h1 style={{ color: "#4483b6", display: "inline-flex", fontSize: "3vmax", textAlign: "center" }}>Andrew Morgan's Portfolio
             <h2>
               <a href="https://github.com/AndrewMorgan2/">
