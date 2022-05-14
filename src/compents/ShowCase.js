@@ -9,7 +9,7 @@ import arrowFlip from '../img/arrowFlip.png';
 
 export default function ShowCase() {
 
-    const [isDisplay, setIsDisplay] = useState(false);
+    const [isDisplay, setIsDisplay] = useState(true);
 
     function handleClick(e) {
         e.preventDefault();
@@ -22,7 +22,7 @@ export default function ShowCase() {
     return (
         <div style={{ display: 'block' }}>
             <div onClick={handleClick}>
-                <h1 style={{ color: '#4483b6', fontSize: "4vmax", display: 'inline-flex' }}>
+                <h1 style={{ color: '#4483b6', fontSize: "3vmax", display: 'inline-flex' }}>
                     <b>Recently [3]</b>
                 </h1>
                 {isDisplay &&
@@ -42,7 +42,7 @@ export default function ShowCase() {
                                 <img class="aspect-video w-96 rounded-t-2xl object-cover object-center rounded-lg" src={ProcessorSimulator}  style={{ width: '100%', height: '100%', marginTop:'5%' }}/>
                                 <div class="p-1">
                                     <h1 class="text-xl font-medium text-slate-600" style={{fontSize: "1.5vmax"}}>Processor Simulator</h1>
-                                    <p class="text-sm tracking-tight font-light text-slate-400 leading-6" style={{fontSize: "1vmax"}}>I built a processor with my own instruction set and programmed some simple programs using the simulator.  
+                                    <p class="text-sm tracking-tight font-light text-slate-400 leading-6" style={{fontSize: "1vmax"}}>I built a processor with my own instruction set and programmed some simple programs using the simulator. I ran experiments on this simulator to show the effect of different components. 
                                     <a href="https://github.com/AndrewMorgan2/MyProcessor"> Github Link</a></p>
                                 </div>
                             </div>

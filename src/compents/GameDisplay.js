@@ -30,7 +30,7 @@ export default function GameDisplay() {
     return (
         <div>
             <div onClick={handleClick}>
-                <h1 style={{ color: '#4483b6', fontSize: "4vmax", display: 'inline-flex' }}>
+                <h1 style={{ color: '#4483b6', fontSize: "3vmax", display: 'inline-flex' }}>
                     <b>Games [6]</b>
                 </h1>
                 {isDisplay &&

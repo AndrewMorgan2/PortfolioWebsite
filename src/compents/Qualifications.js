@@ -39,6 +39,12 @@ export default class OtherDisplay extends React.Component {
                         Programming Languages and Computation, Data-Driven Computer Science,
                         Interaction and Society - <b>averaging 67.75%</b>
                     </h3>
+                    <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
+                    <b style={{fontSize : "2vmax"}}>Third Year Topics: </b>
+                        Machine Learning, Artificial Intelligence, Computational Neuroscience, Cryptology, 
+                        Image Processing and Computer Vision, Advanced Computer Architecture, 
+                        Team Project - <b>averaging TBD</b>
+                    </h3>
                     <br/>
                 </div>
             </div>
