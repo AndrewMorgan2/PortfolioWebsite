@@ -9,7 +9,7 @@ import arrowFlip from '../img/arrowFlip.png';
 
 export default function ShowCase() {
 
-    const [isDisplay, setIsDisplay] = useState(true);
+    const [isDisplay, setIsDisplay] = useState(false);
 
     function handleClick(e) {
         e.preventDefault();
@@ -35,62 +35,41 @@ export default function ShowCase() {
 
             {isDisplay &&
                 <div>
-                    <div class="p-10">
-                        <div class=" w-full lg:max-w-full lg:flex">
-                            <div class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" style="background-image: url('/mountain.jpg')" title="Mountain">
-                            </div>
-                            <div class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-                                <div class="mb-8">
-                                    <p class="text-sm text-gray-600 flex items-center">
-                                        <svg class="fill-current text-gray-500 w-3 h-3 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                                            <path d="M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17h2v-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z" />
-                                        </svg>
-                                        Members only
-                                    </p>
-                                    <div class="text-gray-900 font-bold text-xl mb-2">Best Mountain Trails 2020</div>
-                                    <p class="text-gray-700 text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, Nonea! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
-                                </div>
-                                <div class="flex items-center">
-                                    <img class="w-10 h-10 rounded-full mr-4" src="/Icon.png" alt="Avatar of Writer"/>
-                                        <div class="text-sm">
-                                            <p class="text-gray-900 leading-none">John Smith</p>
-                                            <p class="text-gray-600">Aug 18</p>
-                                        </div>
+
+                    <div style={{ display: "inline-flex" }}>
+                        <div class="relative flex min-h-screen flex-col justify-center bg-gradient-to-r from-rose-100 to-teal-100" style={{ width: '30%', height: '30%', margin: '1%', display: 'block' }}>
+                            <div class="mx-auto flex w-96 flex-col justify-center bg-white rounded-lg shadow-xl shadow-slate-300/60">
+                                <img class="aspect-video w-96 rounded-t-2xl object-cover object-center rounded-lg" src={ProcessorSimulator}  style={{ width: '100%', height: '100%', marginTop:'5%' }}/>
+                                <div class="p-4">
+                                    <h1 class="text-2xl font-medium text-slate-600 pb-2">Processor Simulator</h1>
+                                    <p class="text-sm tracking-tight font-light text-slate-400 leading-6">I built a processor with my own instruction set and programmed some simple programs using the simulator.  
+                                    <a href="https://github.com/AndrewMorgan2/MyProcessor"> Github Link</a></p>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div style={{ display: 'inline-flex' }}>
-                        <img src={ProcessorSimulator} style={{ width: '40%', height: '40%', float: 'left' }} />
-                        <div style={{ height: '50%', width: '50%', marginLeft: '0.5vmin' }}>
-                            <h2 style={{ color: '#4483b6', fontSize: "3vmax" }}><b>Processor Simulator</b></h2>
-                            <h3 style={{ color: 'white', fontSize: "1.5vmax" }}>
-                                I built a processor, if this interests you <a href="https://github.com/AndrewMorgan2/MyProcessor">here's a link to the github page</a>
-                            </h3>
+                        <div class="relative flex min-h-screen flex-col justify-center bg-gradient-to-r from-rose-100 to-teal-100" style={{ width: '30%', height: '30%', margin: '1%', display: 'block' }}>
+                            <div class="mx-auto flex w-96 flex-col justify-center bg-white rounded-lg shadow-xl shadow-slate-300/60">
+                                <img class="aspect-video w-96 rounded-t-2xl object-cover object-center rounded-lg" src={robotDog}  style={{ width: '100%', height: '100%'}}/>
+                                <div class="p-4">
+                                    <h1 class="text-2xl font-medium text-slate-600 pb-2">Robot Dog</h1>
+                                    <p class="text-sm tracking-tight font-light text-slate-400 leading-6"> A robot dog that used a ESP32 to set up a wifi network. This wifi network was used to controll the 12 servos on the dog.
+                                Making it remote controlled. </p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div style={{ display: 'inline-flex' }}>
-                        <img src={robotDog} style={{ width: '40%', height: '40%', float: 'left' }} />
-                        <div style={{ height: '50%', width: '50%', marginLeft: '0.5vmin' }}>
-                            <h2 style={{ color: '#4483b6', fontSize: "3vmax" }}><b>Robot Dog</b></h2>
-                            <h3 style={{ color: 'white', fontSize: "1.5vmax" }}>
-                                A robot dog that used a ESP32 to set up a wifi network. This wifi network was used to controll the 12 servos on the dog.
-                                Making it remote controlled.
-                            </h3>
-                        </div>
-                    </div>
-                    <div style={{ display: 'inline-flex' }}>
-                        <img src={Breached} style={{ width: '40%', height: '40%', float: 'left' }} />
-                        <div style={{ height: '50%', width: '50%', marginLeft: '0.5vmin' }}>
-                            <h2 style={{ color: '#4483b6', fontSize: "3vmax" }}><b>Breached</b></h2>
-                            <h3 style={{ color: 'white', fontSize: "1.5vmax" }}>
-                                First person, web browser co-op escape room style game, complete with water simulation. I did this as a team of 6 in my 3rd year of university
-                                Source code: <a href="https://github.com/breached-game/BreachedGame">here's a link to the github page</a>
-                            </h3>
+                        <div class="relative flex min-h-screen flex-col justify-center bg-gradient-to-r from-rose-100 to-teal-100" style={{ width: '30%', height: '30%', margin: '1%', display: 'block' }}>
+                            <div class="mx-auto flex w-96 flex-col justify-center bg-white rounded-lg shadow-xl shadow-slate-300/60">
+                                <img class="aspect-video w-96 rounded-t-2xl object-cover object-center rounded-lg" src={Breached}  style={{ width: '100%', height: '100%'}}/>
+                                <div class="p-4">
+                                    <h1 class="text-2xl font-medium text-slate-600 pb-2">Breached</h1>
+                                    <p class="text-sm tracking-tight font-light text-slate-400 leading-6"> First person, web browser co-op escape room style game, complete with water simulation. I did this as a team of 6 in my 3rd year of university
+                            Source code: <a href="https://github.com/breached-game/BreachedGame">here's a link to the github page</a></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             }
-        </div>
+        </div >
     );
 }
