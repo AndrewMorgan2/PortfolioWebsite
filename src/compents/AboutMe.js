@@ -10,20 +10,20 @@ export default class AboutMe extends React.Component {
                     I'm a full stack developer and I've written projects using:
                     <div style={{ display: 'block'}}>
                         <ul class="list-disc" style={{ display: "inline-flex"}}>
-                            <li>basic</li>
-                            <li style={{ marginLeft:"2vw"}}>Haskell</li>
-                            <li style={{ marginLeft:"2vw"}}>Prolog</li>
-                            <li style={{ marginLeft:"2vw"}}>C</li>
-                            <li style={{ marginLeft:"2vw"}}>C++</li>
-                            <li style={{ marginLeft:"2vw"}}>C#</li>
-                            <li style={{ marginLeft:"2vw"}}>go</li>
-                            <li style={{ marginLeft:"2vw"}}>Java</li>
-                            <li style={{ marginLeft:"2vw"}}>SQL</li>
-                            <li style={{ marginLeft:"2vw"}}>Python</li>
-                            <li style={{ marginLeft:"2vw"}}>HTML</li>
-                            <li style={{ marginLeft:"2vw"}}>CSS</li>
-                            <li style={{ marginLeft:"2vw"}}>AWS</li>
-                            <li style={{ marginLeft:"2vw"}}>Google Cloud</li>
+                            <li style={{ display: "inline-block"}}>Basic</li>
+                            <li style={{ display: "inline-block", marginLeft:"1.5vw"}}>Haskell</li>
+                            <li style={{ display: "inline-block", marginLeft:"1.5vw"}}>Prolog</li>
+                            <li style={{ display: "inline-block", marginLeft:"1.5vw"}}>C</li>
+                            <li style={{ display: "inline-block", marginLeft:"1.5vw"}}>C++</li>
+                            <li style={{ display: "inline-block", marginLeft:"1.5vw"}}>C#</li>
+                            <li style={{ display: "inline-block", marginLeft:"1.5vw"}}>go</li>
+                            <li style={{ display: "inline-block", marginLeft:"1.5vw"}}>Java</li>
+                            <li style={{ display: "inline-block", marginLeft:"1.5vw"}}>SQL</li>
+                            <li style={{ display: "inline-block", marginLeft:"1.5vw"}}>Python</li>
+                            <li style={{ display: "inline-block", marginLeft:"1.5vw"}}>HTML</li>
+                            <li style={{ display: "inline-block", marginLeft:"1.5vw"}}>CSS</li>
+                            <li style={{ display: "inline-block", marginLeft:"1.5vw"}}>AWS</li>
+                            <li style={{ display: "inline-block", marginLeft:"1.5vw"}}>Google Cloud</li>
                         </ul>
                     </div>
                 </h3>
