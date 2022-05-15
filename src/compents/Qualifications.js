@@ -45,8 +45,16 @@ export default class OtherDisplay extends React.Component {
                         Image Processing and Computer Vision, Advanced Computer Architecture, 
                         Team Project - <b>averaging TBD</b>
                     </h3>
-                    <br/>
                 </div>
+                <div>
+                <h2 style={{color : '#4483b6', fontSize : "3vmax"}}>
+                        <b>Contact</b>
+                    </h2>
+                    <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
+                    Email: andrewdmorgan.2@gmail.com
+                    </h3>
+                </div>
+                <br/>
             </div>
         );
     }
