@@ -43,9 +43,9 @@ export default function GameDisplay() {
 
             {isDisplay &&
                 <div>
-                    <div style={{ display: 'inline-flex' }}>
+                    <div style={{ display: 'inline-flex', color:"white"}}>
                         <div class="relative flex min-h-screen flex-col justify-center bg-gradient-to-r from-rose-100 to-teal-100" style={{ width: '30%', height: '30%', margin: '1%', display: 'block' }}>
-                            <div class="mx-auto flex w-96 flex-col justify-center bg-white rounded-lg shadow-xl shadow-slate-300/60">
+                            <div class="mx-auto flex w-96 flex-col justify-center bg-black rounded-lg shadow-xl shadow-slate-300/60">
                                 <img class="aspect-video w-96 rounded-t-2xl object-cover object-center rounded-lg" src={Hexile} style={{ width: '100%', height: '100%' }} />
                                 <div class="p-1">
                                     <h1 class="text-2xl font-medium text-slate-600" style={{fontSize: "1.5vmax"}}>Hexile</h1>
@@ -55,7 +55,7 @@ export default function GameDisplay() {
                             </div>
                         </div>
                         <div class="relative flex min-h-screen flex-col justify-center bg-gradient-to-r from-rose-100 to-teal-100" style={{ width: '30%', height: '30%', margin: '1%', display: 'block' }}>
-                            <div class="mx-auto flex w-96 flex-col justify-center bg-white rounded-lg shadow-xl shadow-slate-300/60">
+                            <div class="mx-auto flex w-96 flex-col justify-center bg-black rounded-lg shadow-xl shadow-slate-300/60">
                                 <img class="aspect-video w-96 rounded-t-2xl object-cover object-center rounded-lg" src={ArcadeFootball} style={{ width: '100%', height: '100%' }} />
                                 <div class="p-1">
                                     <h1 class="text-2xl font-medium text-slate-600" style={{fontSize: "1.5vmax"}}>Arcade Football</h1>
@@ -66,7 +66,7 @@ export default function GameDisplay() {
                             </div>
                         </div>
                         <div class="relative flex min-h-screen flex-col justify-center bg-gradient-to-r from-rose-100 to-teal-100" style={{ width: '30%', height: '30%', margin: '1%', display: 'block' }}>
-                            <div class="mx-auto flex w-96 flex-col justify-center bg-white rounded-lg shadow-xl shadow-slate-300/60">
+                            <div class="mx-auto flex w-96 flex-col justify-center bg-black rounded-lg shadow-xl shadow-slate-300/60">
                                 <img class="aspect-video w-96 rounded-t-2xl object-cover object-center rounded-lg" src={SpaceHex} style={{ width: '100%', height: '100%' }} />
                                 <div class="p-1">
                                     <h1 class="text-2xl font-medium text-slate-600" style={{fontSize: "1.5vmax"}}>Space Hex</h1>
@@ -78,9 +78,9 @@ export default function GameDisplay() {
                             </div>
                         </div>
                     </div>
-                    <div style={{ display: 'inline-flex' }}>
+                    <div style={{ display: 'inline-flex' , color:"white"}}>
                         <div class="relative flex min-h-screen flex-col justify-center bg-gradient-to-r from-rose-100 to-teal-100" style={{ width: '30%', height: '30%', margin: '1%', display: 'block' }}>
-                            <div class="mx-auto flex w-96 flex-col justify-center bg-white rounded-lg shadow-xl shadow-slate-300/60">
+                            <div class="mx-auto flex w-96 flex-col justify-center bg-black rounded-lg shadow-xl shadow-slate-300/60">
                                 <img class="aspect-video w-96 rounded-t-2xl object-cover object-center rounded-lg" src={DinoFight} style={{ width: '100%', height: '100%' }} />
                                 <div class="p-1">
                                     <h1 class="text-2xl font-medium text-slate-600" style={{fontSize: "1.5vmax"}}>Dino Fight</h1>
@@ -91,7 +91,7 @@ export default function GameDisplay() {
                             </div>
                         </div>
                         <div class="relative flex min-h-screen flex-col justify-center bg-gradient-to-r from-rose-100 to-teal-100" style={{ width: '30%', height: '30%', margin: '1%', display: 'block' }}>
-                            <div class="mx-auto flex w-96 flex-col justify-center bg-white rounded-lg shadow-xl shadow-slate-300/60">
+                            <div class="mx-auto flex w-96 flex-col justify-center bg-black rounded-lg shadow-xl shadow-slate-300/60">
                                 <img class="aspect-video w-96 rounded-t-2xl object-cover object-center rounded-lg" src={BoyInWoods} style={{ width: '100%', height: '100%' }} />
                                 <div class="p-1">
                                     <h1 class="text-2xl font-medium text-slate-600" style={{fontSize: "1.5vmax"}}>Boy in the Woods</h1>
@@ -103,7 +103,7 @@ export default function GameDisplay() {
                             </div>
                         </div>
                         <div class="relative flex min-h-screen flex-col justify-center bg-gradient-to-r from-rose-100 to-teal-100" style={{ width: '30%', height: '30%', margin: '1%', display: 'block' }}>
-                            <div class="mx-auto flex w-96 flex-col justify-center bg-white rounded-lg shadow-xl shadow-slate-300/60">
+                            <div class="mx-auto flex w-96 flex-col justify-center bg-black rounded-lg shadow-xl shadow-slate-300/60">
                                 <img class="aspect-video w-96 rounded-t-2xl object-cover object-center rounded-lg" src={ZombieGame} style={{ width: '100%', height: '100%' }} />
                                 <div class="p-1">
                                     <h1 class="text-2xl font-medium text-slate-600" style={{fontSize: "1.5vmax"}}>Zombie Game</h1>

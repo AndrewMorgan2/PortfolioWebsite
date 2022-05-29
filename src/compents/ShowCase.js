@@ -1,7 +1,7 @@
 
 import robotDog from '../img/robotDog.jpg';
 import Breached from '../img/Breached.png';
-import ProcessorSimulator from '../img/MyProcessor.png';
+import ProcessorSimulator from '../img/porf-18.png';
 
 import React, { useState } from 'react';
 import arrow from '../img/arrow.png';
@@ -36,10 +36,10 @@ export default function ShowCase() {
             {isDisplay &&
                 <div>
 
-                    <div style={{ display: "flex" }}>
-                        <div class="relative flex min-h-screen flex-col justify-center bg-gradient-to-r from-rose-100 to-teal-100" style={{ width: '30%', height: '30%', margin: '1%', display: 'block' }}>
-                            <div class="mx-auto flex w-96 flex-col justify-center bg-white rounded-lg shadow-xl shadow-slate-300/60">
-                                <img class="aspect-video w-96 rounded-t-2xl object-cover object-center rounded-lg" src={ProcessorSimulator}  style={{ width: '100%', height: '100%', marginTop:'5%' }}/>
+                    <div style={{ display: "flex", color: "white"}}>
+                        <div className="relative flex min-h-screen flex-col justify-center" style={{ width: '30%', height: '30%', margin: '1%', display: 'block'}}>
+                            <div class="mx-auto flex w-96 flex-col justify-center rounded-lg shadow-xl shadow-slate-300/60" style={{background: "black"}}>
+                                <img class="aspect-video w-96 rounded-t-2xl object-cover object-center rounded-lg" src={ProcessorSimulator}  style={{ width: '100%', height: '100%'}}/>
                                 <div class="p-1">
                                     <h1 class="text-xl font-medium text-slate-600" style={{fontSize: "1.5vmax"}}>Processor Simulator</h1>
                                     <p class="text-sm tracking-tight font-light text-slate-400 leading-6" style={{fontSize: "1vmax"}}>I built a processor with my own instruction set and programmed some simple programs using the simulator. I ran experiments on this simulator to show the effect of different components. 
@@ -48,7 +48,7 @@ export default function ShowCase() {
                             </div>
                         </div>
                         <div class="relative flex min-h-screen flex-col justify-center bg-gradient-to-r from-rose-100 to-teal-100" style={{ width: '30%', height: '30%', margin: '1%', display: 'block' }}>
-                            <div class="mx-auto flex w-96 flex-col justify-center bg-white rounded-lg shadow-xl shadow-slate-300/60">
+                            <div class="mx-auto flex w-96 flex-col justify-center rounded-lg shadow-xl shadow-slate-300/60" style={{background: "black"}}>
                                 <img class="aspect-video w-96 rounded-t-2xl object-cover object-center rounded-lg" src={robotDog}  style={{ width: '100%', height: '100%'}}/>
                                 <div class="p-1">
                                     <h1 class="text-2xl font-medium text-slate-600" style={{fontSize: "1.5vmax"}}>Robot Dog</h1>
@@ -58,7 +58,7 @@ export default function ShowCase() {
                             </div>
                         </div>
                         <div class="relative flex min-h-screen flex-col justify-center bg-gradient-to-r from-rose-100 to-teal-100" style={{ width: '30%', height: '30%', margin: '1%', display: 'block' }}>
-                            <div class="mx-auto flex w-96 flex-col justify-center bg-white rounded-lg shadow-xl shadow-slate-300/60">
+                            <div class="mx-auto flex w-96 flex-col justify-center rounded-lg shadow-xl shadow-slate-300/60" style={{background: "black"}}>
                                 <img class="aspect-video w-96 rounded-t-2xl object-cover object-center rounded-lg" src={Breached}  style={{ width: '100%', height: '100%'}}/>
                                 <div class="p-1">
                                     <h1 class="text-2xl font-medium text-slate-600" style={{fontSize: "1.5vmax"}}>Breached</h1>

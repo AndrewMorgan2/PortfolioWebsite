@@ -9,6 +9,7 @@ import './App.css';
 import icon from './img/Icon.png';
 import AboutMe from './compents/AboutMe';
 
+
 //Chess board
 import Chess from './compents/Chess'
 
@@ -16,7 +17,7 @@ function App() {
   return (
     <div>
       <div style={{ marginLeft: "1vw", marginRight: "1vw" }}>
-        <div style={{textAlign: "center"}}>
+        <div style={{ textAlign: "center" }}>
           <h1 style={{ color: "#4483b6", display: "inline-flex", fontSize: "4vmax", textAlign: "center" }}>Andrew Morgan's Portfolio
             <h2>
               <a href="https://github.com/AndrewMorgan2/">
