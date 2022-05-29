@@ -18,7 +18,8 @@ function App() {
     <div>
       <div style={{ marginLeft: "1vw", marginRight: "1vw" }}>
         <div style={{ textAlign: "center" }}>
-          <h1 style={{ color: "#4483b6", display: "inline-flex", fontSize: "4vmax", textAlign: "center", marginTop:"1vw"}}>Andrew Morgan's Portfolio
+          <h1 style={{ color: "#4483b6", display: "inline-flex", fontSize: "4vmax", textAlign: "center" }}>Andrew Morgan's Portfolio</h1>
+          <div style={{display: "inline-flex"}}>
             <h2>
               <a href="https://github.com/AndrewMorgan2/">
                 <img src={GithubIcon} style={{ alignSelf: 'center', marginLeft: "5vw", width: "6vw", height: "6vw" }} />
@@ -29,7 +30,7 @@ function App() {
                 <img src={LinkedIcon} style={{ alignSelf: 'center', marginLeft: "5vw", width: "6vw", height: "6vw" }} />
               </a>
             </h2>
-          </h1>
+          </div>
         </div>
         <div>
           <AboutMe />
