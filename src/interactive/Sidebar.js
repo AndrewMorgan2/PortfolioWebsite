@@ -98,7 +98,7 @@ function Sidebar() {
                </select>
             </div>
 
-            <div style= {{ display: "inline-block", marginLeft:"15vw", paddingBottom:"0vw", marginTop:"1vw" }}>
+            <div style= {{ display: "inline-block", marginLeft:"15vw" }}>
                <label htmlFor="range" style={{ display: "block" }}>Range: </label>
                <Slider
                   style={{ width: '180px' }}
