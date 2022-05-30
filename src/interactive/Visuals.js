@@ -59,7 +59,7 @@ function Visuals() {
    else if(myState.algorithm==='quick')
       speed *= 6;
   return (
-    <div style={{display: "inline-block", marginLeft:"20vw"}}>
+    <div style={{display: "inline-block"}}>
       <div>
          {myState.algorithm==='quick'}
          {
