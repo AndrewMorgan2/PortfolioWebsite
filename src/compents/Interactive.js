@@ -62,7 +62,7 @@ export const data = {
 
 export default function ShowCase() {
 
-    const [isDisplay, setIsDisplay] = useState(true);
+    const [isDisplay, setIsDisplay] = useState(false);
     const [num, setNum] = useState(0);
 
     const handleClickRandomNum = () => {

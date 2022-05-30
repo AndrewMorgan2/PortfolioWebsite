@@ -6,6 +6,7 @@ import Interactive from "./compents/Interactive";
 import ShowCase from "./compents/ShowCase.js";
 import GithubIcon from "./img/GitHub-Mark-Light-120px-plus.png";
 import LinkedIcon from "./img/LinkedIn_logo_initials.png";
+import CV from "./img/CV.png";
 import './App.css';
 import icon from './img/Icon.png';
 import AboutMe from './compents/AboutMe';
@@ -31,12 +32,17 @@ function App() {
                 <img src={LinkedIcon} style={{ alignSelf: 'center', marginLeft: "5vw", width: "6vw", height: "6vw" }} />
               </a>
             </h2>
+            <h2>
+              <a href="https://www.linkedin.com/in/andrew-morgan-9672261bb">
+                <img src={CV} style={{ alignSelf: 'center', marginLeft: "5vw", width: "6vw", height: "6vw" }} />
+              </a>
+            </h2>
           </div>
         </div>
         <div>
           <AboutMe />
-          <Interactive />
           <ShowCase />
+          <Interactive />
           <GameDisplay />
           <ProjectDisplay />
           <Qualifications />
