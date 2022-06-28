@@ -33,7 +33,7 @@ function App() {
               </a>
             </h2>
             <h2>
-              <a href="https://www.linkedin.com/in/andrew-morgan-9672261bb">
+              <a href="http://www.keepandshare.com/doc28/view.php?id=113632&da=y">
                 <img src={CV} style={{ alignSelf: 'center', marginLeft: "5vw", width: "6vw", height: "6vw" }} />
               </a>
             </h2>
