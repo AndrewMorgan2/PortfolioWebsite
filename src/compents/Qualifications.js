@@ -43,7 +43,13 @@ export default class OtherDisplay extends React.Component {
                     <b style={{fontSize : "2vmax"}}>Third Year Topics: </b>
                         Machine Learning, Artificial Intelligence, Computational Neuroscience, Cryptology, 
                         Image Processing and Computer Vision, Advanced Computer Architecture, 
-                        Team Project - <b>averaging TBD</b>
+                        Team Project (Breached Game) - <b>averaging 63.75%</b>
+                    </h3>
+                    <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
+                    <b style={{fontSize : "2vmax"}}>Fourth Year Topics: </b>
+                        Internet Economics and Financial Technology, Advanced Topics in Programming Languages 
+                        Applied Deep Learning, 	Cloud Computing and Big Data, Systems and Software Security 
+                        CGI, Individual Project with Innovation Case - <b>averaging TBD</b>
                     </h3>
                 </div>
                 <div>
