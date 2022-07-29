@@ -47,8 +47,8 @@ export default class OtherDisplay extends React.Component {
                     </h3>
                     <h3 style={{color : 'white', fontSize : "1.5vmax"}}>
                     <b style={{fontSize : "2vmax"}}>Fourth Year Topics: </b>
-                        Internet Economics and Financial Technology, Advanced Topics in Programming Languages 
-                        Applied Deep Learning, 	Cloud Computing and Big Data, Systems and Software Security 
+                        Internet Economics and Financial Technology, Advanced Topics in Programming Languages, 
+                        Applied Deep Learning, 	Cloud Computing and Big Data, Systems and Software Security, 
                         CGI, Individual Project with Innovation Case - <b>averaging TBD</b>
                     </h3>
                 </div>

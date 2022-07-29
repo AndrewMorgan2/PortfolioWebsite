@@ -43,8 +43,8 @@ function App() {
           <AboutMe />
           <ShowCase />
           <Interactive />
-          <GameDisplay />
           <ProjectDisplay />
+          <GameDisplay />
           <Qualifications />
         </div>
       </div>
