@@ -48,7 +48,7 @@ export default function ShowCase() {
                         </div>
                         <div className="relative flex min-h-screen flex-col justify-center" style={{ width: '30%', height: '30%', margin: '1%', display: 'block'}}>
                             <div class="mx-auto flex w-96 flex-col justify-center rounded-lg shadow-xl shadow-slate-300/60" style={{background: "black"}}>
-                                <img class="aspect-video w-96 rounded-t-2xl object-cover object-center rounded-lg" src={ProcessorSimulator}  style={{ width: '100%', height: '100%'}}/>
+                                <img class="aspect-video w-96 rounded-t-2xl object-cover object-center rounded-lg" src={GameJam}  style={{ width: '100%', height: '100%'}}/>
                                 <div class="p-1">
                                     <h1 class="text-xl font-medium text-slate-600" style={{fontSize: "1.5vmax"}}>Game Jam</h1>
                                     <p class="text-sm tracking-tight font-light text-slate-400 leading-6" style={{fontSize: "1vmax"}}> I got most innovative at a game jam at university earning £200. I made a VR puzzel game centered around the theme "It's not a bug, it's a feature" 
