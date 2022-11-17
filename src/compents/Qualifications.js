@@ -116,8 +116,6 @@ export default function OtherDisplay() {
                             <li>Algorithms II</li>
                             <li>Software Engineering Project</li>
                             <li>Programming Languages and Computation</li>
-                            <li>Mathematical Methods</li>
-                            <li>Databases and Cloud Concepts</li>
                             <li>Data-Driven Computer Science</li>
                             <li>Interaction and Society</li>
                         </ul>
