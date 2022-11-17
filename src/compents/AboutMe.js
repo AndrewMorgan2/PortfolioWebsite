@@ -6,7 +6,7 @@ export default class AboutMe extends React.Component {
         return (
             <div style={{ textAlign: "center"}}>
                 <h3 style={{ fontSize: "1.5vmax", color: "white" }}>
-                    I have made this website to display my projects.
+                    I made this website to display my projects.
                     I'm a full stack developer and I've written projects using
                 </h3>
                 <div style={{ display: "block", color: "black" }}>
