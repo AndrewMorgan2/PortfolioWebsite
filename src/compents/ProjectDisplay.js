@@ -9,6 +9,7 @@ import Website from '../img/porf-16.png';
 import DeviceEnergy from '../img/porf-17.jpg';
 import AnalogProcessor from '../img/analog_processor.png';
 import robotDog from '../img/robotDog.jpg';
+import DeepLearning from '../img/matrix_deep.png';
 
 import React, { useState } from 'react';
 import arrow from '../img/arrow.png';
@@ -32,7 +33,7 @@ export default function ProjectDisplay() {
         <div>
             <div onClick={handleClick}>
                 <h1 style={{ color: '#4483b6', fontSize: "3vmax", display: 'inline-flex' }}>
-                    <b>Projects [9]</b>
+                    <b>Projects [10]</b>
                 </h1>
                 {isDisplay &&
                     <img src={arrow} style={{ display: 'inline-flex', width: '3%', height: '3%', marginBottom: '1.5vmax', marginLeft: '1vmax' }} />
@@ -158,6 +159,19 @@ export default function ProjectDisplay() {
                                     The basic concept here is that the top row of LEDs displays the hour and the bottom row displays the minutes. The casing for this project was made out of scrapes that I found around the house,
                                     the log (where the LEDs are housed) was from a tree that feel near my house.
                                     </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style={{ display: 'inline-flex', color:'white' }}>
+                        <div className="relative flex min-h-screen flex-col justify-center" style={{ width: '30%', height: '30%', margin: '1%', display: 'block'}}>
+                            <div class="mx-auto flex w-96 flex-col justify-center rounded-lg shadow-xl shadow-slate-300/60" style={{background: "black"}}>
+                                <img class="aspect-video w-96 rounded-t-2xl object-cover object-center rounded-lg" src={DeepLearning}  style={{ width: '100%', height: '100%'}}/>
+                                <div class="p-1">
+                                    <h1 class="text-xl font-medium text-slate-600" style={{fontSize: "1.5vmax"}}>Automatic Music Genre Classifier</h1>
+                                    <p class="text-sm tracking-tight font-light text-slate-400 leading-6" style={{fontSize: "1vmax"}}> I made a deep learning model that used data augmentation to identify genres of music based on a short clip.
+                            Source code:<a href="https://github.com/AndrewMorgan2/Music_Classifier"> Github Link</a></p>
                                 </div>
                             </div>
                         </div>

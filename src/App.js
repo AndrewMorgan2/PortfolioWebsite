@@ -4,13 +4,13 @@ import GameDisplay from "./compents/GameDisplay";
 import Qualifications from "./compents/Qualifications";
 import Interactive from "./compents/Interactive";
 import ShowCase from "./compents/ShowCase.js";
+import ViusalEffects from "./compents/VisualEffects.js";
 import GithubIcon from "./img/GitHub-Mark-Light-120px-plus.png";
 import LinkedIcon from "./img/LinkedIn_logo_initials.png";
 import CV from "./img/CV.png";
 import './App.css';
 import icon from './img/Icon.png';
 import AboutMe from './compents/AboutMe';
-
 
 //Chess board
 import Chess from './compents/Chess'
@@ -42,9 +42,9 @@ function App() {
         <div>
           <AboutMe />
           <ShowCase />
-          <Interactive />
           <ProjectDisplay />
           <GameDisplay />
+          <ViusalEffects />
           <Qualifications />
         </div>
       </div>

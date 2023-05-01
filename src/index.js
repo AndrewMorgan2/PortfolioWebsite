@@ -8,15 +8,14 @@ import registerServiceWorker from "./compents/registerServiceWorker";
 import { Provider } from 'react-redux';
 import rootReducer from './reducer';
 import {createStore} from 'redux';
-
+import { BrowserRouter } from 'react-router-dom';
 const store = createStore(rootReducer);
-ReactDOM.render(
-  <React.StrictMode>
-    <Provider store={store}>
+
+ReactDOM.render((
+  <BrowserRouter>
       <App />
-    </Provider>
-  </React.StrictMode>,
-  document.getElementById('root')
+  </BrowserRouter>
+  ),document.getElementById('root')
 );
 registerServiceWorker();
 //Functions to be run

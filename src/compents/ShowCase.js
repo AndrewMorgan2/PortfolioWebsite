@@ -1,7 +1,7 @@
 import GameJam from '../img/GameJam.jpg';
 import Breached from '../img/Breached.png';
 import ProcessorSimulator from '../img/porf-18.png';
-import DeepLearning from '../img/matrix_deep.png';
+import Dis from '../img/model_wth_cp_plus_colour (1) .png';
 import Cloud from '../img/Cloud_website.png';
 
 import React, { useState } from 'react';
@@ -50,11 +50,11 @@ export default function ShowCase() {
                         </div>
                         <div className="relative flex min-h-screen flex-col justify-center" style={{ width: '30%', height: '30%', margin: '1%', display: 'block'}}>
                             <div class="mx-auto flex w-96 flex-col justify-center rounded-lg shadow-xl shadow-slate-300/60" style={{background: "black"}}>
-                                <img class="aspect-video w-96 rounded-t-2xl object-cover object-center rounded-lg" src={DeepLearning}  style={{ width: '100%', height: '100%'}}/>
+                                <img class="aspect-video w-96 rounded-t-2xl object-cover object-center rounded-lg" src={Dis}  style={{ width: '100%', height: '100%'}}/>
                                 <div class="p-1">
-                                    <h1 class="text-xl font-medium text-slate-600" style={{fontSize: "1.5vmax"}}>Automatic Music Genre Classifier</h1>
-                                    <p class="text-sm tracking-tight font-light text-slate-400 leading-6" style={{fontSize: "1vmax"}}> I made a deep learning model that used data augmentation to identify genres of music based on a short clip.
-                            Source code:<a href="https://github.com/AndrewMorgan2/Music_Classifier"> Github Link</a></p>
+                                    <h1 class="text-xl font-medium text-slate-600" style={{fontSize: "1.5vmax"}}>Generating 3D Models From Images</h1>
+                                    <p class="text-sm tracking-tight font-light text-slate-400 leading-6" style={{fontSize: "1vmax"}}> This project uses deep learning combined to genertate models of people from images.
+                            Source code:<a href="https://github.com/AndrewMorgan2/Innovation_Case"> Github Link</a></p>
                                 </div>
                             </div>
                         </div>
