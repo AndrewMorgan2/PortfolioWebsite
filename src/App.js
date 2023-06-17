@@ -4,6 +4,7 @@ import GameDisplay from "./compents/GameDisplay";
 import Qualifications from "./compents/Qualifications";
 import Interactive from "./compents/Interactive";
 import ShowCase from "./compents/ShowCase.js";
+import SoftwareProjectDisplay from "./compents/SoftwareProjectDisplay";
 import ViusalEffects from "./compents/VisualEffects.js";
 import GithubIcon from "./img/GitHub-Mark-Light-120px-plus.png";
 import LinkedIcon from "./img/LinkedIn_logo_initials.png";
@@ -42,6 +43,7 @@ function App() {
         <div>
           <AboutMe />
           <ShowCase />
+          <SoftwareProjectDisplay />
           <ProjectDisplay />
           <GameDisplay />
           <ViusalEffects />
