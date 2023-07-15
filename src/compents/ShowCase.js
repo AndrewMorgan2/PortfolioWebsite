@@ -54,7 +54,8 @@ export default function ShowCase() {
                                 <div class="p-1">
                                     <h1 class="text-xl font-medium text-slate-600" style={{fontSize: "1.5vmax"}}>Generating 3D Models From Images</h1>
                                     <p class="text-sm tracking-tight font-light text-slate-400 leading-6" style={{fontSize: "1vmax"}}> This project uses deep learning combined to genertate models of people from images.
-                            Source code:<a href="https://github.com/AndrewMorgan2/Innovation_Case"> Github Link</a></p>
+                            <br/>Source code:<a href="https://github.com/AndrewMorgan2/Innovation_Case"> Github Link</a> <br/>
+                            Dissertation: <a href="http://www.keepandshare.com/doc28/view.php?id=114460&da=y"> Link </a></p>
                                 </div>
                             </div>
                         </div>

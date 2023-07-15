@@ -51,27 +51,19 @@ export default function OtherDisplay() {
                     <b>Formal Education</b>
                 </h2>
                 <h3 style={{ color: 'white', fontSize: "1.5vmax" }}>
-                    I have 10 GCSEs (4A*s, 5As and a B) and A Levels (A in maths, A in physics and B in chemistry).
-                    I'm on my way to getting a masters in computer Science from the University of Bristol.
+                    I have a Computer Science Masters from the University of Bristol, achieving a 2:1 (<a href="http://www.keepandshare.com/doc28/view.php?id=114459&da=y">Transcript</a>) .<br/>
+                    A Levels: A in maths, A in physics and B in chemistry. <br/>
+                    I have 10 GCSEs (4A*s, 5As and a B).
                 </h3>
             </div>
 
             <div>
                 <h2 style={{ color: '#4483b6', fontSize: "3vmax" }}>
-                    <b>Awards</b>
-                </h2>
-                <h3 style={{ color: 'white', fontSize: "1.5vmax" }}>
-                    Duke of Edinburgh Sliver / Engineering Scholarship Scheme Wales Award / Life Guard Qualifications / Head Boy
-                </h3>
-            </div>
-
-            <div>
-                <h2 style={{ color: '#4483b6', fontSize: "3vmax" }}>
-                    <b>University Grades</b>
+                    <b>University Topics</b>
                 </h2>
                 <div onClick={handleClick}>
                     <h3 style={{ color: 'white', fontSize: "1.5vmax", display: 'inline-flex' }}>
-                        First Year Topics: averaging 67.2%
+                        First Year Topics
                     </h3>
                     {isDisplay &&
                         <img src={arrow} style={{ display: 'inline-flex', width: '3%', height: '3%', marginBottom: '1vmax', marginLeft: '1vmax' }} />
@@ -99,7 +91,7 @@ export default function OtherDisplay() {
 
                 <div onClick={handleClick2}>
                     <h3 style={{ color: 'white', fontSize: "1.5vmax", display: 'inline-flex' }}>
-                        Second Year Topics: averaging 67.75%
+                        Second Year Topics
                     </h3>
                     {isDisplay2 &&
                         <img src={arrow} style={{ display: 'inline-flex', width: '3%', height: '3%', marginBottom: '1vmax', marginLeft: '1vmax' }} />
@@ -124,7 +116,7 @@ export default function OtherDisplay() {
 
                 <div onClick={handleClick3}>
                     <h3 style={{ color: 'white', fontSize: "1.5vmax", display: 'inline-flex' }}>
-                        Third Year Topics: averaging 63.75%
+                        Third Year Topics
                     </h3>
                     {isDisplay3 &&
                         <img src={arrow} style={{ display: 'inline-flex', width: '3%', height: '3%', marginBottom: '1vmax', marginLeft: '1vmax' }} />
@@ -149,7 +141,7 @@ export default function OtherDisplay() {
 
                 <div onClick={handleClick4}>
                     <h3 style={{ color: 'white', fontSize: "1.5vmax", display: 'inline-flex' }}>
-                        Four Year Topics: averaging TBD
+                        Four Year Topics
                     </h3>
                     {isDisplay4 &&
                         <img src={arrow} style={{ display: 'inline-flex', width: '3%', height: '3%', marginBottom: '1vmax', marginLeft: '1vmax' }} />
@@ -172,6 +164,16 @@ export default function OtherDisplay() {
                     </h3>
                 }
             </div>
+
+            <div>
+                <h2 style={{ color: '#4483b6', fontSize: "3vmax" }}>
+                    <b>Awards</b>
+                </h2>
+                <h3 style={{ color: 'white', fontSize: "1.5vmax" }}>
+                    Duke of Edinburgh Sliver / Engineering Scholarship Scheme Wales Award / Life Guard Qualifications / Head Boy
+                </h3>
+            </div>
+
             <div>
                 <h2 style={{ color: '#4483b6', fontSize: "3vmax" }}>
                     <b>Contact</b>
