@@ -42,7 +42,6 @@ function App() {
         </div>
         <div>
           <AboutMe />
-          <ShowCase />
           <SoftwareProjectDisplay />
           <ProjectDisplay />
           <GameDisplay />

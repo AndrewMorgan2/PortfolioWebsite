@@ -10,6 +10,7 @@ import DeviceEnergy from '../img/porf-17.jpg';
 import AnalogProcessor from '../img/analog_processor.png';
 import robotDog from '../img/robotDog.jpg';
 import DeepLearning from '../img/matrix_deep.png';
+import DnD from '../img/DnD.png';
 
 import React, { useState } from 'react';
 import arrow from '../img/arrow.png';
@@ -18,7 +19,7 @@ import arrowFlip from '../img/arrowFlip.png';
 export default function ProjectDisplay() {
 
     //only project visable straight away
-    const [isDisplay, setIsDisplay] = useState(false);
+    const [isDisplay, setIsDisplay] = useState(true);
 
     function handleClick(e) {
         e.preventDefault();
@@ -33,7 +34,7 @@ export default function ProjectDisplay() {
         <div>
             <div onClick={handleClick}>
                 <h1 style={{ color: '#4483b6', fontSize: "3vmax", display: 'inline-flex' }}>
-                    <b>Hardware Projects [7]</b>
+                    <b>Hardware Projects [8]</b>
                 </h1>
                 {isDisplay &&
                     <img src={arrow} style={{ display: 'inline-flex', width: '3%', height: '3%', marginBottom: '1.5vmax', marginLeft: '1vmax' }} />
@@ -58,18 +59,20 @@ export default function ProjectDisplay() {
                                 </div>
                             </div>
                         </div>
+
                         <div class="relative flex min-h-screen flex-col justify-center bg-gradient-to-r from-rose-100 to-teal-100" style={{ width: '30%', height: '30%', margin: '1%', display: 'block' }}>
                             <div class="mx-auto flex w-96 flex-col justify-center bg-black rounded-lg shadow-xl shadow-slate-300/60">
-                                <img class="aspect-video w-96 rounded-t-2xl object-cover object-center rounded-lg" src={Speaker} style={{ width: '100%', height: '100%' }} />
+                                <img class="aspect-video w-96 rounded-t-2xl object-cover object-center rounded-lg" src={DnD} style={{ width: '100%', height: '100%' }} />
                                 <div class="p-1">
-                                    <h1 class="text-2xl font-medium text-slate-600 " style={{fontSize: "1.5vmax"}}>Sound to Light Speaker</h1>
+                                    <h1 class="text-2xl font-medium text-slate-600 " style={{fontSize: "1.5vmax"}}>Upcycled Game Master Screen</h1>
                                     <p class="text-sm tracking-tight font-light text-slate-400 leading-6" style={{fontSize: "1vmax"}}>
-                                        The core idea here is to use a microphone to identify 3 different tones. When the corresponding tone is played that colour LED lights up.
-                                        This is really satisfying to watch.
+                                        I gathered the screen from a broken IPad one, spare wood and hinges from thrown away furniture and 
+                                        constructed a Dugeon Master's screen with a built in display.  
                                     </p>
                                 </div>
                             </div>
                         </div>
+
                         <div class="relative flex min-h-screen flex-col justify-center bg-gradient-to-r from-rose-100 to-teal-100" style={{ width: '30%', height: '30%', margin: '1%', display: 'block' }}>
                             <div class="mx-auto flex w-96 flex-col justify-center rounded-lg shadow-xl shadow-slate-300/60" style={{background: "black"}}>
                                 <img class="aspect-video w-96 rounded-t-2xl object-cover object-center rounded-lg" src={robotDog}  style={{ width: '100%', height: '100%'}}/>
@@ -130,6 +133,18 @@ export default function ProjectDisplay() {
                                     <p class="text-sm tracking-tight font-light text-slate-400 leading-6" style={{fontSize: "1vmax"}}>
                                     The basic concept here is that the top row of LEDs displays the hour and the bottom row displays the minutes. The casing for this project was made out of scrapes that I found around the house,
                                     the log (where the LEDs are housed) was from a tree that feel near my house.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="relative flex min-h-screen flex-col justify-center bg-gradient-to-r from-rose-100 to-teal-100" style={{ width: '30%', height: '30%', margin: '1%', display: 'block' }}>
+                            <div class="mx-auto flex w-96 flex-col justify-center bg-black rounded-lg shadow-xl shadow-slate-300/60">
+                                <img class="aspect-video w-96 rounded-t-2xl object-cover object-center rounded-lg" src={Speaker} style={{ width: '100%', height: '100%' }} />
+                                <div class="p-1">
+                                    <h1 class="text-2xl font-medium text-slate-600 " style={{fontSize: "1.5vmax"}}>Sound to Light Speaker</h1>
+                                    <p class="text-sm tracking-tight font-light text-slate-400 leading-6" style={{fontSize: "1vmax"}}>
+                                        The core idea here is to use a microphone to identify 3 different tones. When the corresponding tone is played that colour LED lights up.
+                                        This is really satisfying to watch.
                                     </p>
                                 </div>
                             </div>
