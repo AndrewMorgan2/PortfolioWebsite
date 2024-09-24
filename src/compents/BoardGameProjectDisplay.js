@@ -39,7 +39,7 @@ export default function BoardGameProjectDisplay() {
                      <div style={{ display: "flex", color: "white"}}>
                         <div className="relative flex min-h-screen flex-col justify-center" style={{ width: '30%', height: '30%', margin: '1%', display: 'block'}}>
                             <div class="mx-auto flex w-96 flex-col justify-center rounded-lg shadow-xl shadow-slate-300/60" style={{background: "black"}}>
-                                <img class="aspect-video w-96 rounded-t-2xl object-cover object-center rounded-lg" src={SageScreen}  style={{ width: '100%', height: '100%'}}/>
+                                <img class="aspect-video w-96 rounded-t-2xl object-cover object-center rounded-lg" src={SageUI}  style={{ width: '100%', height: '100%'}}/>
                                 <div class="p-1">
                                     <h1 class="text-xl font-medium text-slate-600" style={{fontSize: "1.5vmax"}}>User Interface</h1>
                                     <p class="text-sm tracking-tight font-light text-slate-400 leading-6" style={{fontSize: "1vmax"}}>Our intuitive UI makes accessing these features a breeze. It includes an image generation API interface, empowering users to create custom visuals on the fly. The entire system is designed with user-friendliness in mind, ensuring that both new and experienced players can easily navigate and utilize its capabilities.</p>
@@ -59,7 +59,7 @@ export default function BoardGameProjectDisplay() {
 
                         <div className="relative flex min-h-screen flex-col justify-center" style={{ width: '30%', height: '30%', margin: '1%', display: 'block'}}>
                             <div class="mx-auto flex w-96 flex-col justify-center rounded-lg shadow-xl shadow-slate-300/60" style={{background: "black"}}>
-                                <img class="aspect-video w-96 rounded-t-2xl object-cover object-center rounded-lg" src={SageUI}  style={{ width: '100%', height: '100%'}}/>
+                                <img class="aspect-video w-96 rounded-t-2xl object-cover object-center rounded-lg" src={SageScreen}  style={{ width: '100%', height: '100%'}}/>
                                 <div class="p-1">
                                     <h1 class="text-xl font-medium text-slate-600" style={{fontSize: "1.5vmax"}}>Regular Screens</h1>
                                     <p class="text-sm tracking-tight font-light text-slate-400 leading-6" style={{fontSize: "1vmax"}}>The custom combat overlay is a game-changer for battle management. It efficiently tracks effects and HP, allowing players to see the turn order at a glance. GMs can elevate the gaming experience by displaying custom images and videos, bringing encounters to life.</p>
