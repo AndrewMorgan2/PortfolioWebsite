@@ -1,4 +1,5 @@
 import ProjectDisplay from "./compents/ProjectDisplay";
+import BoardGameDisplay from "./compents/BoardGameProjectDisplay";
 import OtherDisplay from "./compents/OtherDisplay";
 import GameDisplay from "./compents/GameDisplay";
 import Qualifications from "./compents/Qualifications";
@@ -44,6 +45,7 @@ function App() {
           <AboutMe />
           <SoftwareProjectDisplay />
           <ProjectDisplay />
+          <BoardGameDisplay/>
           <GameDisplay />
           <ViusalEffects />
           <Qualifications />
