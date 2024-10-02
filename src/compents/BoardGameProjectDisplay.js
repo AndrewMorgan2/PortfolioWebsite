@@ -67,8 +67,8 @@ export default function BoardGameProjectDisplay() {
                             </div>
                         </div>
                     </div>
+                    <a href="https://github.com/AndrewMorgan2/SageSlate" className="text-sm tracking-tight font-light text-slate-400 leading-6"  style={{fontSize: "1.5vmax", textAlign: "center"}}>SageSlate Github</a>
 
-                    
                 </div>
             }
         </div>
