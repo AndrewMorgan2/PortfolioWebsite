@@ -14,8 +14,7 @@ import ZombieGame from '../img/porf-15.PNG';
 import Hexile from '../img/Hexile.jpg';
 import GameJam from '../img/GameJam.jpg';
 import Breached from '../img/Breached.png';
-
-
+import Sprited from "../img/spirited_towards.png"
 
 export default function GameDisplay() {
 
@@ -33,7 +32,7 @@ export default function GameDisplay() {
         <div>
             <div onClick={handleClick}>
                 <h1 style={{ color: '#4483b6', fontSize: "3vmax", display: 'inline-flex' }}>
-                    <b>Games [6]</b>
+                    <b>Games [7]</b>
                 </h1>
                 {isDisplay &&
                     <img src={arrow} style={{ display: 'inline-flex', width: '3%', height: '3%', marginBottom: '1.5vmax', marginLeft: '1vmax' }} />
@@ -110,6 +109,20 @@ export default function GameDisplay() {
                                         Raycasting, pathfinding, AI and storing values in encypted files.
                                         This project taught me that a good design philosophy allows for ways to increase the scope of a project. This is my first "real" single player game.
                                     </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style={{ display: 'inline-flex' , color:"white"}}>
+                        <div class="relative flex min-h-screen flex-col justify-center bg-gradient-to-r from-rose-100 to-teal-100" style={{ width: '30%', height: '30%', margin: '1%', display: 'block' }}>
+                            <div class="mx-auto flex w-96 flex-col justify-center bg-black rounded-lg shadow-xl shadow-slate-300/60">
+                                <img class="aspect-video w-96 rounded-t-2xl object-cover object-center rounded-lg" src={Sprited} style={{ width: '100%', height: '100%' }} />
+                                <div class="p-1">
+                                    <h1 class="text-2xl font-medium text-slate-600" style={{fontSize: "1.5vmax"}}>Spirited Towards</h1>
+                                    <p class="text-sm tracking-tight font-light text-slate-400 leading-6" style={{fontSize: "1vmax"}}>
+                                        This was made in a 24 hour game jam, made in Rust using Bevy. I made this solo using AI to generate the artwork. It's a simple
+                                        puzzel card game, to look at the horrendous code you can go to the link.
+                                        <a href="https://github.com/AndrewMorgan2/Spritied_Towards"> Github Link</a></p>
                                 </div>
                             </div>
                         </div>
