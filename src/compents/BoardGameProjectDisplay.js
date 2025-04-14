@@ -36,6 +36,17 @@ export default function BoardGameProjectDisplay() {
 
             {isDisplay &&
                 <div>
+                    <div style={{ display: "flex", color: "white"}}>
+                        <div className="relative flex min-h-screen flex-col justify-center" style={{ width: '90%', height: '90%', margin: '1%', display: 'block'}}>
+                            <div class="mx-auto flex w-96 flex-col justify-center rounded-lg shadow-xl shadow-slate-300/60" style={{background: "black"}}>
+                                <div class="p-1">
+                                    <p class="text-sm tracking-tight font-light text-slate-400 leading-6" style={{fontSize: "1vmax"}}>SageSlate is a lightweight Virtual Tabletop (VTT) application designed specifically for enhancing in-person tabletop roleplaying experiences. Built on Electron, this open-source Dungeon Master tool can be controlled locally or accessed via LAN, with development focused on evolving into a full-featured Progressive Web App (PWA).
+                                    SageSlate leverages OBS for visual output and integrates Linux utilities like ImageMagick to generate custom graphics, creating a streamlined yet powerful solution for Dungeon Masters who want to incorporate digital elements into their physical gaming sessions without the complexity of traditional VTTs. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                      <div style={{ display: "flex", color: "white"}}>
                         <div className="relative flex min-h-screen flex-col justify-center" style={{ width: '30%', height: '30%', margin: '1%', display: 'block'}}>
                             <div class="mx-auto flex w-96 flex-col justify-center rounded-lg shadow-xl shadow-slate-300/60" style={{background: "black"}}>
