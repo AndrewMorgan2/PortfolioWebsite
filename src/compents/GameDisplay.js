@@ -15,6 +15,9 @@ import Hexile from '../img/Hexile.jpg';
 import GameJam from '../img/GameJam.jpg';
 import Breached from '../img/Breached.png';
 import Sprited from "../img/spirited_towards.png"
+import PlanetCam from "../img/planet_camera.png"
+import PlanetDisplay from "../img/planet_display.png"
+
 
 export default function GameDisplay() {
 
@@ -123,6 +126,19 @@ export default function GameDisplay() {
                                         This was made in a 24 hour game jam, made in Rust using Bevy. I made this solo using AI to generate the artwork. It's a simple
                                         puzzel card game, to look at the horrendous code you can go to the link.
                                         <a href="https://github.com/AndrewMorgan2/Spritied_Towards"> Github Link</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="relative flex min-h-screen flex-col justify-center bg-gradient-to-r from-rose-100 to-teal-100" style={{ width: '60%', height: '30%', margin: '1%', display: 'block' }}>
+                            <div class="mx-auto flex flex-col justify-center bg-black rounded-lg shadow-xl shadow-slate-300/60">
+                                <div style={{ display: 'flex' }}>
+                                    <img class="aspect-video w-96 rounded-t-2xl object-cover object-center rounded-lg" src={PlanetCam} style={{ width: '50%', height: '100%' }} />
+                                    <img class="aspect-video w-96 rounded-t-2xl object-cover object-center rounded-lg" src={PlanetDisplay} style={{ width: '50%', height: '100%' }} />
+                                </div>
+                                <div class="p-1">
+                                    <h1 class="text-2xl font-medium text-slate-600" style={{fontSize: "1.5vmax"}}>Space Cubes</h1>
+                                    <p class="text-sm tracking-tight font-light text-slate-400 leading-6" style={{fontSize: "1vmax"}}>
+                                    Made this in 24 hours as part of BrisHack 2026, with a touchscreen monitor player needed to find the cubes orbitting the planet while avoiding mines. Players would then arrange the cubes (with corresponding colours) in the order of closest to the sun. Then players would move larger cubes closer to the camera until they had correctly arranged the cubes as seen on the touchscreen. The webcam tracked all this and updated the display screen until the correct order was chosen.                                    </p>
                                 </div>
                             </div>
                         </div>
